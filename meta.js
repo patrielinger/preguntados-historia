@@ -1,15 +1,46 @@
 const questions = [
     {
-        question: "¿Cuál es la capital de Francia?",
-        options: ["Londres", "Roma", "París"],
-        correctAnswer: "París",
-        hint: "Es conocida como 'La Ciudad del Amor'."
+        question: "¿Quién fue el líder principal en la unificación de Italia?",
+        options: ["Víctor Manuel II", "Giuseppe Garibaldi.", "Camillo Cavour."],
+        correctAnswer: "Giuseppe Garibaldi.",
+        hint: "Luchó por la independencia italiana."
     },
     {
-        question: "¿Cuál es el océano más grande del mundo?",
-        options: ["Océano Atlántico", "Océano Índico", "Océano Pacífico"],
-        correctAnswer: "Océano Pacífico",
-        hint: "Cubre más del 30% de la superficie terrestre."
+        question: " ¿Qué tratado ayudó a la unificación de Italia?",
+        options: ["Tratado de Viena", "Tratado de Versalles.", "Tratado de Turín."],
+        correctAnswer: "Tratado de Turín.",
+        hint: "Firmado en 1860."
+    },
+        {
+        question: "¿Cuál fue la última región en unirse a Italia?",
+        options: ["Roma", "Sicilia.", " Venecia."],
+        correctAnswer: " Venecia.",
+        hint: "Ubicada en el noreste."
+    },    {
+        question: "¿Qué movimiento político apoyó la unificación de Italia?",
+        options: [" El Risorgimento.", "El Fascismo.", " El Renacimiento"],
+        correctAnswer: " El Risorgimento.",
+        hint: "Significa resurgimiento en italiano."
+    },    {
+        question: "¿Cuál fue el primer reino de Italia unificada?",
+        options: ["Reino de Nápoles", "Reino de Cerdeña.", "Reino de Sicilia."],
+        correctAnswer: "Reino de Cerdeña.",
+        hint: "Gobernado por Víctor Manuel II."
+    },    {
+        question: "¿Qué ciudad se convirtió en la capital de Italia después de la unificación?",
+        options: ["Roma.", " Florencia", "Milán."],
+        correctAnswer: "Roma.",
+        hint: "Sede del Papado."
+    },    {
+        question: "¿Cuál fue el año clave para la unificación de Italia?",
+        options: ["1821", "1901.", "1861."],
+        correctAnswer: "1861.",
+        hint: " Se proclamó el Reino."
+    },    {
+        question: "¿Qué papel jugó Camillo Cavour en la unificación de Italia?",
+        options: ["Diplomático y estadista.", "General", "filósofo."],
+        correctAnswer: "Diplomático y estadista.",
+        hint: ""
     },
    
 ];
