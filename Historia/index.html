@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minijuego de Preguntas y Respuestas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Minijuego de Preguntas y Respuestas</h1>
+        <div id="timer-container">
+            <p id="timer">10</p>
+        </div>
+        <div id="question-container">
+            <p id="question-text">¿Pregunta?</p>
+        </div>
+        <div id="options-container">
+            <!-- Las opciones ahora se colocarán dentro de botones -->
+            <button class="option" id="option-0">Opción 1</button>
+            <button class="option" id="option-1">Opción 2</button>
+            <button class="option" id="option-2">Opción 3</button>
+        </div>
+        <p id="hint">Pista: <span id="hint-text">Pista aquí</span></p>
+        <div id="result-container" style="display: none;">
+            <p id="result-text"></p>
+            <button id="next-button">Siguiente Pregunta</button>
+            <button id="restart-button">Reiniciar Juego</button>
+        </div>
+    </div>
+    <script src="meta.js"></script>
+</body>
+</html>

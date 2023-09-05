@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500&family=Signika:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2E0249;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.option{
+    width: 90%;
+    margin: 5px;
+    border-radius: 40px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Lilita One', cursive;
+    transition: transform 0.3s ease;
+}
+.option:hover{
+/*    transform: translateY(-5px);*/
+    animation-delay: 0.2s;
+    animation-duration: 0.8s;
+    animation-name: opcion;
+    animation-timeline: initial;
+    animation-iteration-count: infinite;
+}
+@keyframes opcion{
+    0%{transform: scale(1.1)}
+    100%{transform: scale(1)}
+}
+.container {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E80F88;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #000;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Lilita One', cursive;
+}
+
+#question-container {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 0 #000;
+}
+#question-text{
+    color: #000;
+    font-size: 1.6rem;
+    font-family: 'Lexend', sans-serif;
+}
+#options-container {
+    text-align: center;
+    width: 100%;
+}
+
+#hint {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#next-button {
+    background-color: #007bff;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
