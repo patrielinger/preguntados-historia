@@ -12,6 +12,7 @@ body {
     padding: 0;
     margin: 0;
     color: #fff;
+    padding-bottom: 30px;
 }
 .option{
     width: 90%;
@@ -159,4 +160,16 @@ h1 {
     width: 400px;
     height: auto;
     display: inline-block;
+}
+@media(max-width:800px){
+    .pato{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+.more{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
 }
