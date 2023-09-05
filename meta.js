@@ -102,7 +102,7 @@ nextButton.addEventListener("click", () => {
         loadQuestion();
         resultContainer.style.display = "none";
     } else {
-        alert("¡Fin del juego!");
+        window.location.href = "https://preguntados-historia.netlify.app/";
     }
 });
 
@@ -113,3 +113,15 @@ restartButton.addEventListener("click", () => {
 });
 
 loadQuestion();
+
+
+
+
+
+
+
+
+
+function pinga(){
+            window.location.href = "https://preguntados-historia.netlify.app/juego.html"; 
+        }
