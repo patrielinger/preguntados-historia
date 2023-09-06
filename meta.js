@@ -1,52 +1,44 @@
 const questions = [
+
     {
-        question: "¿Quién fue el líder principal en la unificación de Italia?",
-        options: ["Víctor Manuel II", "Giuseppe Garibaldi.", "Camillo Cavour."],
-        correctAnswer: "Giuseppe Garibaldi.",
-        hint: "Luchó por la independencia italiana."
+
+        question: "¿Qué fue el taylorismo y quién fue su creador?",
+        options: ["Mejora de la eficiencia", "Teoria economica de Smith", "Movimiento artistico del siglo XIX"],
+        correctAnswer: "Mejora de la eficiencia",
+        hint: "."
     },
     {
-        question: " ¿Qué tratado ayudó a la unificación de Italia?",
-        options: ["Tratado de Viena", "Tratado de Versalles.", "Tratado de Turín."],
-        correctAnswer: "Tratado de Turín.",
-        hint: "Firmado en 1860."
+        question: "¿Cuál era el objetivo principal del taylorismo en la organización del trabajo?",
+        options: ["Reduccion de productos y costos", "Mejora de condiciones laborales", "Aumento de salarios"],
+        correctAnswer: "Aumento de salarios",
+        hint: "."
     },
         {
-        question: "¿Cuál fue la última región en unirse a Italia?",
-        options: ["Roma", "Sicilia.", " Venecia."],
-        correctAnswer: " Venecia.",
-        hint: "Ubicada en el noreste."
+        question: "¿En qué consistía la cadena de montaje y qué fábrica la implementó?",
+        options: ["Mejora de condiciones laborales", "Tecnica agricola del siglo XIX", "Ensamblaje en linea continua"],
+        correctAnswer: "Ensamblaje en linea continua",
+        hint: "."
     },    {
-        question: "¿Qué movimiento político apoyó la unificación de Italia?",
-        options: [" El Risorgimento.", "El Fascismo.", " El Renacimiento"],
-        correctAnswer: " El Risorgimento.",
-        hint: "Significa resurgimiento en italiano."
+        question: "¿Cuáles fueron algunos de los nuevos tipos de energía utilizados en la Segunda Revolución Industrial?",
+        options: ["Energia solar", "Energia hidraulica", " energia nuclear"],
+        correctAnswer: "Energia hidraulica",
+        hint: "."
     },    {
-        question: "¿Cuál fue el primer reino de Italia unificada?",
-        options: ["Reino de Nápoles", "Reino de Cerdeña.", "Reino de Sicilia."],
-        correctAnswer: "Reino de Cerdeña.",
-        hint: "Gobernado por Víctor Manuel II."
+        question: "¿Cómo afectaron el uso del petróleo y la electricidad a la vida cotidiana y a la industria?",
+        options: ["Mayor comodidad y eficiencia", "aumento de contaminacion ambiental", "reduccion del consumo de energia"],
+        correctAnswer: "Mayor comodidad y eficiencia",
+        hint: "."
     },    {
-        question: "¿Qué ciudad se convirtió en la capital de Italia después de la unificación?",
-        options: ["Roma.", " Florencia", "Milán."],
-        correctAnswer: "Roma.",
-        hint: "Sede del Papado."
-    },    {
-        question: "¿Cuál fue el año clave para la unificación de Italia?",
-        options: ["1821", "1901.", "1861."],
-        correctAnswer: "1861.",
-        hint: " Se proclamó el Reino."
-    },    {
-        question: "¿Qué papel jugó Camillo Cavour en la unificación de Italia?",
-        options: ["Diplomático y estadista.", "General", "filósofo."],
-        correctAnswer: "Diplomático y estadista.",
-        hint: ""
+        question: "¿Qué inventos importantes se desarrollaron durante esta etapa de la revolución?",
+        options: [ "maquina de vapor mejorada","telefono y fonografo", "Computadora e internet"],
+        correctAnswer: "telefono y fonografo",
+        hint: "."
     },
    
 ];
 
 let currentQuestionIndex = 0;
-let countdown = 10; 
+let countdown = 60; 
 let timerInterval;
 
 const questionText = document.getElementById("question-text");
@@ -60,7 +52,7 @@ const restartButton = document.getElementById("restart-button");
 
 function loadQuestion() {
     clearInterval(timerInterval);
-    countdown = 10;
+    countdown = 60;
     timerText.textContent = countdown;
 
     const currentQuestion = questions[currentQuestionIndex];
