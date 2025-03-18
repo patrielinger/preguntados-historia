@@ -3,7 +3,7 @@ const questions = [
     {
 
         question: "¿Que estudio Carl Menger antes de ser Ecnomista?",
-        options: ["Ingenieria", "Psicologia", "Metodologia"],
+        options: ["Ingenieria", "Psicologia"],
         correctAnswer: "Derecho",
         hint: "."
     },
@@ -28,7 +28,7 @@ const questions = [
         options: ["Escuela Marxita", "Escuela Keynesiana", "Escuela Clasica"],
         correctAnswer: "Escuela Austriaca",
         hint: "."
-    }
+    },
    
 ];
 
