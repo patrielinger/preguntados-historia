@@ -2,38 +2,33 @@ const questions = [
 
     {
 
-        question: "¿Qué fue el taylorismo y quién fue su creador?",
-        options: ["Mejora de la eficiencia", "Teoria economica de Smith", "Movimiento artistico del siglo XIX"],
-        correctAnswer: "Mejora de la eficiencia",
+        question: "¿Que estudio Carl Menger antes de ser Ecnomista?",
+        options: ["Ingenieria", "Psicologia", "Metodologia"],
+        correctAnswer: "Derecho",
         hint: "."
     },
     {
-        question: "¿Cuál era el objetivo principal del taylorismo en la organización del trabajo?",
-        options: ["Reduccion de productos y costos", "Mejora de condiciones laborales", "Aumento de salarios"],
-        correctAnswer: "Aumento de salarios",
+        question: "¿En que año Murio Léon Walras?",
+        options: ["1920", "1914", "1930"],
+        correctAnswer: "1910",
         hint: "."
     },
         {
-        question: "¿En qué consistía la cadena de montaje y qué fábrica la implementó?",
-        options: ["Mejora de condiciones laborales", "Tecnica agricola del siglo XIX", "Ensamblaje en linea continua"],
-        correctAnswer: "Ensamblaje en linea continua",
+        question: "¿Cual de estos pensamientos de Carl Walras es correcto?",
+        options: ["La inovacion constante impulsa la prosperidad economica", "Una economia equilibrada es mas resiliente", "La riqueza bien distribuida genera crecimiento continuo"],
+        correctAnswer: "Un mercado esta en equilibrio cuando los demss tambien",
         hint: "."
     },    {
-        question: "¿Cuáles fueron algunos de los nuevos tipos de energía utilizados en la Segunda Revolución Industrial?",
-        options: ["Energia solar", "Energia hidraulica", " energia nuclear"],
-        correctAnswer: "Energia hidraulica",
+        question: "¿Que teoria desarrrollo Walras?",
+        options: ["Teoria de juegos", "Teoria del caos", "Teoria de la relatividad"],
+        correctAnswer: "teoria del equilibrio general",
         hint: "."
     },    {
-        question: "¿Cómo afectaron el uso del petróleo y la electricidad a la vida cotidiana y a la industria?",
-        options: ["Mayor comodidad y eficiencia", "aumento de contaminacion ambiental", "reduccion del consumo de energia"],
-        correctAnswer: "Mayor comodidad y eficiencia",
+        question: "¿Que escuela fundo Carl Menger?",
+        options: ["Escuela Marxita", "Escuela Keynesiana", "Escuela Clasica"],
+        correctAnswer: "Escuela Austriaca",
         hint: "."
-    },    {
-        question: "¿Qué inventos importantes se desarrollaron durante esta etapa de la revolución?",
-        options: [ "maquina de vapor mejorada","telefono y fonografo", "Computadora e internet"],
-        correctAnswer: "telefono y fonografo",
-        hint: "."
-    },
+    }
    
 ];
 
