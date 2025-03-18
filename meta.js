@@ -37,7 +37,7 @@ const questions = [
 ];
 
 let currentQuestionIndex = 0;
-let countdown = 60;
+let countdown = 15;
 let timerInterval;
 
 const questionText = document.getElementById("question-text");
