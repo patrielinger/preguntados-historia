@@ -120,7 +120,7 @@ nextButton.addEventListener("click", () => {
         loadQuestion();
         resultContainer.style.display = "none";
     } else {
-        window.location.href = "https://preguntados-historia.netlify.app/";
+        window.location.href = "https://preguntados-economia.netlify.app/";
     }
 });
 
@@ -141,5 +141,5 @@ loadQuestion();
 
 
 function pinga(){
-            window.location.href = "https://preguntados-historia.netlify.app/juego.html"; 
+            window.location.href = "https://preguntados-economia.netlify.app/juego.html"; 
         }
