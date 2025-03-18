@@ -1,39 +1,43 @@
 const questions = [
-
     {
-
-        question: "¿Que estudio Carl Menger antes de ser Ecnomista?",
-        options: ["Ingenieria", "Psicologia"],
+        question: "¿Qué estudio Carl Menger antes de ser Economista?",
+        options: ["Ingeniería", "Psicología", "Metodología", "Derecho"],
         correctAnswer: "Derecho",
         hint: "."
     },
     {
-        question: "¿En que año Murio Léon Walras?",
-        options: ["1920", "1914", "1930"],
+        question: "¿En qué año murió Léon Walras?",
+        options: ["1920", "1914", "1930", "1910"],
         correctAnswer: "1910",
         hint: "."
     },
-        {
-        question: "¿Cual de estos pensamientos de Carl Walras es correcto?",
-        options: ["La inovacion constante impulsa la prosperidad economica", "Una economia equilibrada es mas resiliente", "La riqueza bien distribuida genera crecimiento continuo"],
-        correctAnswer: "Un mercado esta en equilibrio cuando los demss tambien",
-        hint: "."
-    },    {
-        question: "¿Que teoria desarrrollo Walras?",
-        options: ["Teoria de juegos", "Teoria del caos", "Teoria de la relatividad"],
-        correctAnswer: "teoria del equilibrio general",
-        hint: "."
-    },    {
-        question: "¿Que escuela fundo Carl Menger?",
-        options: ["Escuela Marxita", "Escuela Keynesiana", "Escuela Clasica"],
-        correctAnswer: "Escuela Austriaca",
+    {
+        question: "¿Cuál de estos pensamientos de Carl Walras es correcto?",
+        options: [
+            "La innovación constante impulsa la prosperidad económica",
+            "Una economía equilibrada es más resiliente",
+            "La riqueza bien distribuida genera crecimiento continuo",
+            "Un mercado está en equilibrio cuando los demás también"
+        ],
+        correctAnswer: "Un mercado está en equilibrio cuando los demás también",
         hint: "."
     },
-   
+    {
+        question: "¿Qué teoría desarrolló Walras?",
+        options: ["Teoría de juegos", "Teoría del caos", "Teoría de la relatividad", "Teoría del equilibrio general"],
+        correctAnswer: "Teoría del equilibrio general",
+        hint: "."
+    },
+    {
+        question: "¿Qué escuela fundó Carl Menger?",
+        options: ["Escuela Marxista", "Escuela Keynesiana", "Escuela Clásica", "Escuela Austríaca"],
+        correctAnswer: "Escuela Austríaca",
+        hint: "."
+    }
 ];
 
 let currentQuestionIndex = 0;
-let countdown = 60; 
+let countdown = 60;
 let timerInterval;
 
 const questionText = document.getElementById("question-text");
@@ -55,7 +59,7 @@ function loadQuestion() {
     hintText.textContent = "Pista: " + currentQuestion.hint;
 
     optionsContainer.innerHTML = "";
-    currentQuestion.options.forEach((option, index) => {
+    currentQuestion.options.forEach((option) => {
         const optionElement = document.createElement("button");
         optionElement.classList.add("option");
         optionElement.textContent = option;
@@ -83,7 +87,7 @@ function checkAnswer(selectedOption, correctOption) {
     clearInterval(timerInterval);
 
     const optionElements = document.querySelectorAll(".option");
-    optionElements.forEach((optionElement, index) => {
+    optionElements.forEach((optionElement) => {
         optionElement.disabled = true; 
         if (optionElement.textContent === correctOption) {
             optionElement.style.backgroundColor = "#16FF00";
@@ -132,14 +136,6 @@ restartButton.addEventListener("click", () => {
 
 loadQuestion();
 
-
-
-
-
-
-
-
-
-function pinga(){
-            window.location.href = "https://preguntados-economia.netlify.app/juego.html"; 
-        }
+function pinga() {
+    window.location.href = "https://preguntados-economia.netlify.app/juego.html"; 
+}
