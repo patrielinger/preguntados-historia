@@ -49,6 +49,11 @@ const resultText = document.getElementById("result-text");
 const nextButton = document.getElementById("next-button");
 const restartButton = document.getElementById("restart-button");
 
+// Función para mezclar un array aleatoriamente (algoritmo Fisher-Yates)
+function shuffleArray(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
+
 function loadQuestion() {
     clearInterval(timerInterval);
     countdown = 60;
@@ -59,7 +64,11 @@ function loadQuestion() {
     hintText.textContent = "Pista: " + currentQuestion.hint;
 
     optionsContainer.innerHTML = "";
-    currentQuestion.options.forEach((option) => {
+    
+    // Mezclar opciones antes de mostrarlas
+    const shuffledOptions = shuffleArray([...currentQuestion.options]);
+
+    shuffledOptions.forEach((option) => {
         const optionElement = document.createElement("button");
         optionElement.classList.add("option");
         optionElement.textContent = option;
